@@ -104,6 +104,8 @@ If you like it, please ⭐ Star to bookmark it!
     - [Case 66: Split-Contrast Style Photo（by @fofrAI）](#case-66-split-contrast-style-photoby-fofrai)
     - [Case 67: Jewelry Collection Design（by @Gdgtify）](#case-67-jewelry-collection-designby-gdgtify)
     - [Case 68: Merchandise Design（by @0xFramer）](#case-68-merchandise-designby-0xframer)
+    - [Case 69: UPSCALE any low quality Image（by @motyar）](#case-68-upscscale-motyar)
+
   - [🙏 Acknowledge](#-acknowledge)
 
 ## 🖼️ Cases
@@ -1215,6 +1217,21 @@ Transform this image into a 5-piece jewelry collection.
 
 ```
 Create merchandise using this character image.
+```
+
+<!-- Case 68: Merchandise Design (by @0xFramer) -->
+### Case 69: [Upscale any Image](https://x.com/motyar/status/1966177133472133480)（by [@motyar](https://x.com/motyar)）
+
+| Input | Output |
+|:---:|:---:|
+| <img src="images/case69/input.jpg" width="300" alt="Input Image"> | <img src="images/case69/output.jpg" width="300" alt="Output Result"> |
+
+**Input:** Need to upload a reference image
+
+**Prompt:**
+
+```
+Creatively upscale this image. scene details realistic details, incredible life-like imagery.
 ```
 
 ## 🙏 Acknowledge
