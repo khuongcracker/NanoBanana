@@ -44,9 +44,6 @@ export default function Home() {
         </motion.h2>
         <motion.p className="text-base leading-7" {...fadeInUp}>
           Nano-banana demonstrates outstanding capabilities in image generation and world knowledge, with particularly strong performance in identity consistency. In contrast, even OpenAI&#39;s GPT-4o and the most advanced open-source model, Qwen-Image, still fall noticeably short on consistency tasks. The consistency task refers to preserving the same individual&#39;s facial identity across diverse editing scenarios—such as background changes, action modifications, or style shifts—which has emerged as a critical capability for modern image generation models. 
-          <br />
-          In our prior work (<Link href="https://github.com/yejy53/Echo" style={{ color: '#28affa' }}
-          className="hover:underline"> Echo-4o </Link>), we highlighted the advantages of leveraging GPT-4o as a source of high-quality synthetic data—superior to natural image datasets in generating scarce samples, achieving clean instruction alignment, and composing multi-reference image sets. Building upon the insights from our previous work, we further leverage Nano-Banana to construct a large-scale, high-quality dataset that preserves individual identity across diverse and complex editing scenarios.
         </motion.p>
         <motion.div {...imageReveal}>
           <Image
@@ -59,7 +56,10 @@ export default function Home() {
           />
         </motion.div>
         <motion.p className="text-base leading-7" {...fadeInUp}>
-          Today, we introduce <span className="font-semibold">Nano-consistent-150k</span>, a large-scale dataset of over 150K samples generated with the recent, stronger Nano-banana model. The dataset spans eight types of image editing and multi-reference composition tasks. A key feature is its remarkable <span className="font-semibold">identity consistency</span>: for a single portrait, more than <span className="font-semibold">35</span> distinct editing outputs are provided across diverse tasks and instructions. By anchoring on consistent human identities, the dataset enables the construction of <span className="font-semibold">interleaved data</span>, facilitating research on both complex scene editing and identity preservation. 
+          In our prior work (<Link href="https://github.com/yejy53/Echo" style={{ color: '#28affa' }}
+          className="hover:underline"> Echo-4o </Link>), we highlighted the advantages of leveraging GPT-4o as a source of high-quality synthetic data—superior to natural image datasets in generating scarce samples, achieving clean instruction alignment, and composing multi-reference image sets. Building upon the insights from our previous work, we present <span className="font-semibold">Nano-consistent-150k</span> — the <span className="font-semibold italic">first dataset</span> constructed using Nano-Banana that exceeds 150k high-quality samples, uniquely designed to preserve consistent human identity across diverse and complex editing scenarios.
+          <br />
+          A key feature is its remarkable <span className="font-semibold">identity consistency</span>: for a single portrait, more than <span className="font-semibold">35</span> distinct editing outputs are provided across diverse tasks and instructions. By anchoring on consistent human identities, the dataset enables the construction of interleaved data that seamlessly link multiple editing tasks, instructions, and modalities around the same individual.
           <br />
           We release <span className="font-semibold">Nano-consistent-150K</span> openly to support the community&#39;s development of image generation and unified models. In addition, we are conducting lightweight fine-tuning on Qwen-Image for editing tasks, and the resulting model weights will be released later this month.
         </motion.p>
