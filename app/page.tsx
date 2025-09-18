@@ -59,7 +59,9 @@ export default function Home() {
           />
         </motion.div>
         <motion.p className="text-base leading-7" {...fadeInUp}>
-          Today, we introduce <span className="font-semibold">Nano-consistent-150k</span>, a large-scale dataset of over 100k samples generated with the recent, stronger Nano-banana model. The dataset spans eight types of image editing and multi-reference composition tasks. A key feature is its remarkable <span className="font-semibold">identity consistency</span>: for a single portrait, more than 35 distinct editing outputs are provided across diverse tasks and instructions. By anchoring on consistent human identities, the dataset enables the construction of <span className="font-semibold">interleaved data</span>, facilitating research on both complex scene editing and identity preservation. 
+          Today, we introduce <span className="font-semibold">Nano-consistent-150k</span>, a large-scale dataset of over 150K samples generated with the recent, stronger Nano-banana model. The dataset spans eight types of image editing and multi-reference composition tasks. A key feature is its remarkable <span className="font-semibold">identity consistency</span>: for a single portrait, more than <span className="font-semibold">35</span> distinct editing outputs are provided across diverse tasks and instructions. By anchoring on consistent human identities, the dataset enables the construction of <span className="font-semibold">interleaved data</span>, facilitating research on both complex scene editing and identity preservation. 
+          <br />
+          We release <span className="font-semibold">Nano-consistent-150K</span> openly to support the community&#39;s development of image generation and unified models. In addition, we are conducting lightweight fine-tuning on Qwen-Image for editing tasks, and the resulting model weights will be released later this month.
         </motion.p>
         <motion.div {...imageReveal}>
           <Image
@@ -72,8 +74,6 @@ export default function Home() {
           />
         </motion.div>
         <motion.p className="mt-2 mb-2 text-base leading-7" {...fadeInUp}>
-          We release Nano-consistent-100k openly to support the community&#39;s development of image generation and unified models. In addition, we are conducting lightweight fine-tuning on Qwen-Image for editing tasks, and the resulting model weights will be released later this month.
-          <br />
           As shown in the Figure, the Nano-consistent-150k dataset comprises a total of 159,492 samples, including 120k single-image editing instances and 40k multi-reference generation samples, spanning eight distinct sub-tasks. 
         </motion.p>
         <motion.div {...imageReveal}>
@@ -87,7 +87,7 @@ export default function Home() {
           />
         </motion.div>
         <motion.p className="text-base leading-7" {...fadeInUp}>
-          We began by downloading over 10k publicly available portrait images from Pixabay, followed by automated filtering with GPT-5-mini to ensure the presence of clear facial features. After filtering, approximately 4,000 portraits were retained as the base identity set for consistency tasks. In addition, we manually collected 500 anime-style character illustrations to further supplement the dataset. 
+          We began by downloading over 10K publicly available portrait images from Pixabay, followed by automated filtering with GPT-5-mini to ensure the presence of clear facial features. After filtering, approximately 4,000 portraits were retained as the base identity set for consistency tasks. In addition, we manually collected 500 anime-style character illustrations to further supplement the dataset. 
           <br />
           Based on these identities, we drafted initial task-specific text instructions and employed Nano-banana to generate synthetic images. Details of each sub-task are provided in the subsequent task descriptions. While Nano-banana exhibits strong generative capabilities, it can still suffer from instruction non-compliance or visible cut-and-paste artifacts. To address this, we applied GPT-5-mini again to filter the outputs.
           <br />
@@ -193,7 +193,7 @@ export default function Home() {
         </motion.div>
 
         <motion.p className="text-base leading-7" {...fadeInUp}>
-          We will release the <span className="font-semibold">Nano-consistent-100k</span> dataset to foster future research on image generation and unified models. In addition, we will provide the <span className="font-semibold">Qwen-Image LoRA weights</span> fine-tuned on this dataset in the near future, offering further support for advancing identity consistency and complex editing capabilities.
+          We will release the <span className="font-semibold">Nano-consistent-150K</span> dataset to foster future research on image generation and unified models. In addition, we will provide the <span className="font-semibold">Qwen-Image LoRA weights</span> fine-tuned on this dataset in the near future, offering further support for advancing identity consistency and complex editing capabilities.
         </motion.p>
         <motion.div {...fadeInUp}>
           <Alert className="mt-4 mb-4" variant="default">
