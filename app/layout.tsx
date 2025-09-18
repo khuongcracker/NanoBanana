@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Nano Banana 150K",
   description: "A High-Quality 150K Image Dataset by using Nano Banana",
   icons: {
-    icon: "/favicon.ico",
+    icon: "favicon.ico",
   }
 };
 
