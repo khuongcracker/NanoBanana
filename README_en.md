@@ -1183,7 +1183,7 @@ Crop the head and create a 2-inch ID photo with:
 **Prompt:**
 
 ```
-Draw an A6 folding card: when opened, it reveals a complete 3D spherical tiny house with a miniature paper garden and a bonsai tree inside.
+A zoomed-in close-up of an A6 folding package card on a table. The card is unfolded with four flat sides open on the table and the center panel upright. From this middle panel, a pop-up 3D world based on [reference image] emerges, like a children’s pop-up book. Keep the focus on the pop-up scene, showing clear paper folds and depth, without adding extra elements not in the reference.
 ```
 
 <!-- Case 65: Design a Chess Set (by @Gdgtify) -->
@@ -1241,7 +1241,7 @@ Transform this image into a 5-piece jewelry collection.
 **Prompt:**
 
 ```
-Create merchandise using this character image.
+Create a collection of merchandise featuring [character image], including T-shirts, hoodies, mugs, tote bags, stickers, posters, phone cases, keychains, and notebooks. Each item should clearly display the character in a stylish and appealing way, as if ready for sale in a real merchandise store, with realistic textures, lighting, and product mockup presentation.
 ```
 
 <!-- Example 69: Model Holographic Projection (by @UNIBRACITY) -->
